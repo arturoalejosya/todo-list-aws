@@ -18,8 +18,8 @@ pipeline {
                     git checkout -b master origin/master
                     git merge develop
                 """, label: "Merging code to master"
-                sshagent(['github']) {
-                    sh "git push origin master"
+                sshagent(['3f3ecf84-e56c-4115-ba2b-42c286506644']) {
+                    sh "git push git@github.com:arturoalejosya/todo-list-aws.git master"
                 }
 
             }
