@@ -24,7 +24,7 @@ pipeline {
             steps{
                 script {
                     echo 'Initiating Integration Tests'
-                    sh "bash pipelines/common-steps/integration.sh https://ge8pckw5cl.execute-api.us-east-1.amazonaws.com/Prod"
+                    sh "bash pipelines/common-steps/integration.sh https://oe2lifwyt7.execute-api.us-east-1.amazonaws.com/Prod"
                 }
             }
         }
